@@ -1,6 +1,8 @@
 patch:
   schema_list:
     - {schema: luna_pinyin_simp}    # 朙月拼音
+    - {schema: tiger}               # 虎码单字
+    - {schema: tigress}             # 虎码官方小词库
     - {schema: double_pinyin_flypy} #小鹤双拼
     - {schema: flypy}               #小鹤音形
     - {schema: cqkm}                #超强快码
