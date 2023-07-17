@@ -1,10 +1,10 @@
 {
-  "name": "Simplified Chinese to Traditional Chinese",
+  "name": "英文词组大小写转换",
   "segmentation": {
     "type": "mmseg",
     "dict": {
       "type": "text",
-      "file": "STPhrases.txt"
+      "file": "EN2en.txt"
     }
   },
   "conversion_chain": [{
@@ -12,11 +12,9 @@
       "type": "group",
       "dicts": [{
         "type": "text",
-        "file": "STPhrases.txt"
-      }, {
-        "type": "text",
-        "file": "STCharacters.txt"
+        "file": "EN2en.txt"
       }]
     }
   }]
 }
+

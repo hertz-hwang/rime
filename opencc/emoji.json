@@ -3,19 +3,22 @@
   "segmentation": {
     "type": "mmseg",
     "dict": {
-      "type": "ocd2",
-      "file": "emoji_word.ocd2"
+      "type": "ocd",
+      "file": "emoji_word.ocd"
     }
   },
   "conversion_chain": [{
     "dict": {
       "type": "group",
       "dicts": [{
-        "type": "ocd2",
-        "file": "emoji_word.ocd2"
+        "type": "ocd",
+        "file": "emoji_word.ocd"
       }, {
-        "type": "ocd2",
-        "file": "emoji_category.ocd2"
+        "type": "ocd",
+        "file": "emoji_category.ocd"
+      },{
+        "type": "ocd",
+        "file": "emoji.ocd"
       }]
     }
   }]
